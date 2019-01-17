@@ -105,6 +105,18 @@ div.InvisibleManDescription
     font-weight:lighter;
 }
 
+div.InvisibleManUpdateTime
+{
+    position:absolute;
+    width:auto;
+    height: 550px;
+    left:100px;
+    top:430px;
+    font-family: 'SegoeUI';
+    font-size:17pt;
+    font-weight:normal;
+}
+
 a.Button64
 {
     position:absolute;
@@ -213,6 +225,18 @@ a.Button32:active
         font-family: 'SegoeUI-Light';
         font-size:20pt;
         font-weight:lighter;
+    }
+
+    div.InvisibleManUpdateTime
+    {
+        position:absolute;
+        width:auto;
+        height: 550px;
+        left:50px;
+        top:440px;
+        font-family: 'SegoeUI';
+        font-size:15pt;
+        font-weight:normal;
     }
 
     a.Button64
@@ -340,4 +364,198 @@ p.FooterText
     font-size:13pt;
     font-weight:normal;
     line-height:3.5;
+}
+
+div.ButtonFloat
+{
+    bottom: 0px;
+    right: 0px;
+    padding: 0px 20px 20px 0px;
+    position: fixed;
+}
+
+a.ButtonFeedBack
+{
+    background-color: #d95f5f;
+    outline: 0;
+    float: right;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+a.ButtonFeedBack:hover
+{
+    background-color:#ec6868;
+}
+
+a.ButtonFeedBack:active
+{
+    background-color:#cb5858;
+}
+
+img.ButtonFeedBackFront
+{
+    margin-top: 15px;
+}
+
+div.MessageFloat
+{
+    display: none;
+    bottom: 100px;
+    right: 20px;
+    position: fixed;
+    background-color: white;
+    float: right;
+    width: 320px;
+    height: 60px;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+p.MessageContent
+{
+    width:300px;
+    text-align:left;
+    margin: 9px 15px;
+    font-family: 'SegoeUI';
+    font-size:11pt;
+    font-weight:normal;
+    line-height:1.5;
+}
+
+a.ButtonClose
+{
+    outline: 0;
+    top: 0px;
+    right: 0px;
+    margin: 2px;
+    position: absolute;
+    cursor: pointer;
+}
+
+div.MessageMenu
+{
+    bottom: -500px;
+    right: 10px;
+    position: fixed;
+    background-color: white;
+    float: right;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    max-height: calc(100vh - 70px);
+}
+
+@media screen and (max-width: 400px)
+{
+    div.MessageMenu
+    {
+        bottom: -500px;
+        position: fixed;
+        background-color: white;
+        width: 90%;
+        height: 400px;
+        text-align: center;
+        border-radius: 7px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        overflow-y: auto;
+        max-height: calc(100vh - 70px);
+    }
+}
+
+div.MessageMenuRow
+{
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    color: black;
+    text-align: center;
+    font-family: 'SegoeUI';
+    font-size:12pt;
+    font-weight:normal;
+}
+
+label.MessageLabel
+{
+    float: left;
+    margin: 0px 0px 7px 25px;
+}
+
+input.MessageTextBox
+{
+    width: 75%;
+    outline: 0;
+    color: black;
+    border-radius: 4px;
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    text-align:left;
+    font-family: 'SegoeUI-Light';
+    font-size:12pt;
+    font-weight:lighter;
+    text-decoration:none;
+}
+
+input.MessageTextBox:focus
+{
+    outline: none !important;
+    border:1px solid #d95f5f;
+}
+
+textarea.MessageTextArea
+{
+    width: 75%;
+    height: 120px;
+    outline: 0;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid red;
+    padding: 5px 15px;
+    border: 1px solid #ccc;
+    text-align:left;
+    font-family: 'SegoeUI-Light';
+    font-size:12pt;
+    font-weight:lighter;
+    text-decoration:none;
+    resize: none;
+}
+
+textarea.MessageTextArea:focus
+{
+    outline: none !important;
+    border:1px solid #d95f5f;
+}
+
+input.ButtonSubmit
+{
+    width: 150px;
+    height: 40px;
+    background-color:#d95f5f;
+    color: white;
+    text-align:center;
+    line-height:1.5;
+    font-family: 'SegoeUI-Light';
+    font-size:12pt;
+    font-weight:lighter;
+    text-decoration:none;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+}
+
+input.ButtonSubmit:hover
+{
+    background-color:#ec6868;
+}
+
+input.ButtonSubmit:active
+{
+    background-color:#cb5858;
 }
