@@ -402,6 +402,35 @@ img.ButtonFeedBackFront
     margin-top: 15px;
 }
 
+a.ButtonBitcoin
+{
+    background-color: #d95f5f;
+    outline: 0;
+    margin: 10px 10px 0px 0px;
+    float: right;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+a.ButtonBitcoin:hover
+{
+    background-color:#ec6868;
+}
+
+a.ButtonBitcoin:active
+{
+    background-color:#cb5858;
+}
+
+img.ButtonBitcoinFront
+{
+    margin-top: 10px;
+}
+
 div.MessageFloat
 {
     display: none;
