@@ -1,6 +1,8 @@
 ﻿$(document).ready(function () {
     $(window).bind("load", function () {
         if (window.location.href.indexOf("FeedbackSent") <= -1) {
+            $("#AdMenu").animate({ bottom: '10px' });
+
             $("#MessageFloat").delay(2000).fadeIn(250);
 
             setTimeout(function () {
@@ -14,7 +16,7 @@
     });
 
     $("#ButtonBitcoin").click(function () {
-        $("#DonateMenu").animate({ bottom: '10px' });
+        $("#AdMenu").animate({ bottom: '10px' });
     });
 
     $("#ButtonFeedBack").click(function () {
@@ -27,6 +29,10 @@
     });
 
     $("#ButtonBitcoinMenuClose").click(function () {
-        $("#DonateMenu").animate({ bottom: '-500px' });
+        $("#AdMenu").animate({ bottom: '-500px' });
+    });
+
+    $("#ButtonAd").click(function () {
+        window.open("https://get.cryptobrowser.site/5399042");
     });
 });
