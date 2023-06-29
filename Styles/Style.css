@@ -87,7 +87,7 @@ div.InvisibleManName
     width:auto;
     height: 550px;
     left:100px;
-    top:120px;
+    top:100px;
     font-family: 'SegoeUI';
     font-size:50pt;
     font-weight:normal;
@@ -99,10 +99,17 @@ div.InvisibleManDescription
     width:auto;
     height: 550px;
     left:100px;
-    top:220px;
+    top:200px;
     font-family: 'SegoeUI-Light';
     font-size:30pt;
     font-weight:lighter;
+}
+
+div.Ads
+{
+    position: absolute;
+    top: 305px; 
+    left:100px
 }
 
 div.InvisibleManUpdateTime
@@ -111,7 +118,7 @@ div.InvisibleManUpdateTime
     width:auto;
     height: 550px;
     left:100px;
-    top:430px;
+    top:440px;
     font-family: 'SegoeUI';
     font-size:17pt;
     font-weight:normal;
@@ -120,10 +127,10 @@ div.InvisibleManUpdateTime
 a.Button64
 {
     position:absolute;
-    width:210px;
+    width:225px;
     height: 60px;
     left:100px;
-    top:370px;
+    top:380px;
     background-color:#d95f5f;
     color: white;
     text-align:center;
@@ -147,10 +154,10 @@ a.Button64:active
 a.Button32
 {
     position:absolute;
-    width:210px;
+    width:225px;
     height: 60px;
-    left:330px;
-    top:370px;
+    left:343px;
+    top:380px;
     background-color:#d95f5f;
     color: white;
     text-align:center;
@@ -225,6 +232,11 @@ a.Button32:active
         font-family: 'SegoeUI-Light';
         font-size:20pt;
         font-weight:lighter;
+    }
+    
+    div.Ads
+    {
+        visibility: hidden;
     }
 
     div.InvisibleManUpdateTime
